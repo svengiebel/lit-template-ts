@@ -8,6 +8,10 @@ export default defineConfig(async ({ command, mode }) => {
       plugins: [
         VitePWA({
           registerType: "autoUpdate",
+          includeAssets: "assets/*",
+          workbox: {
+            globPatterns: ["**/*.{js,css,html,png,svg}"],
+          },
           devOptions: {
             enabled: true,
           },
