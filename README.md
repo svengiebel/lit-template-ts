@@ -11,7 +11,7 @@ Feel free to fork and adjust for your needs.
 - [tailwindcss](https://tailwindcss.com) - CSS classes
 - [daisyUI](https://daisyui.com) - Tailwind CSS Component library
 - [zustand](https://github.com/pmndrs/zustand) - awesome state-management library 🐻
-  - _currently only rougly implementet with my custom reactive controller for lit elements_
+  - _currently only roughly implementet with my custom reactive controller for lit elements `storeController.ts`_
 
 ## Commands
 
